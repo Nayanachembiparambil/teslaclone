@@ -1,0 +1,193 @@
+body{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 620px;
+    padding-left: 50px;
+    padding-top: 19px;
+    
+    background-size: cover;
+    
+    background-repeat: no-repeat
+    
+    
+    
+    
+}
+ 
+.logo{
+                                                                                 
+    font-family: 'TESLA', sans-serif;
+    font-size: 122%;
+    font-weight: lighter;
+    color: #fff;
+    text-decoration: none;
+    
+         
+      
+}
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    position: absolute;
+    top: 19px;
+    left: 35%;
+    border:none;
+    background-color: inherit;
+    
+    
+
+   
+    
+  }
+.tab_button{
+    color: #fff;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    font-size: 14px;
+    
+    
+}
+
+.tab_button:hover{
+    background-color: #f1f1f1;
+    color: black;
+    
+}
+
+.right_menu{
+    
+    
+    position: absolute;
+    left: 1150px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 10px;
+    
+    color: #fff;
+    border: none;
+    background-color: inherit;
+    font-size: 1rem;
+    
+
+}
+.right_menu_elmnt{
+    width: 35px;
+    
+}
+.central_container{
+    
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    
+
+    top: 50px;
+    left: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+    
+
+}
+.central_head{
+    width: 300px;
+    height: 55px;
+    border: 0px;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.central_button{
+    width: 550px;
+    height: 50px;
+    position: absolute;
+    top: 550px;
+    left: 420px;
+    display: flex;
+    justify-content: space-around;
+}
+.butn1{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(55, 55, 245);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+.butn2{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    
+}
+#conditions{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: black;
+    
+    margin-top: 0;
+    position: relative;
+    border: none;
+}
+#conditions_text{
+    color: white;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    font-size: 14px;
+
+}
+.footer{
+    margin-top: 0;
+    border: none;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 52, 52);
+    
+    
+    
+    
+}
+.footer ul{
+    margin: 0;
+    list-style-type: none;
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    left: 250px;
+    
+    
+}
+.footer ul li a{
+    color: whitesmoke;
+    background-color: inherit;
+}
