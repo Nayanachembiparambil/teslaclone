@@ -4,14 +4,17 @@ body{
     margin: 0;
 }
 .container-fluid{
-    width: 100%;
+    
     height: 800px;
     padding-left: 50px;
     padding-top: 19px;
     
-    background-size: contain;
     
-    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: 0;
     position: relative;
     
     
@@ -91,10 +94,9 @@ body{
     width: 300px;
     height: 150px;
     position: absolute;
-    
-
-    top: 50px;
-    left: 550px;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,6 +107,8 @@ body{
 
 }
 .central_head{
+    
+    
     width: 300px;
     height: 55px;
     border: 0px;
@@ -120,12 +124,13 @@ body{
     width: 550px;
     height: 50px;
     position: absolute;
-    top: 650px;
-    left: 420px;
+    top: 78%;
+    left: 30%;
     display: flex;
     justify-content: space-around;
 }
 .butn1{
+    
     width: 250px;
     height: 40px;
     background-color: rgb(55, 55, 245);
@@ -135,6 +140,7 @@ body{
 
 }
 .butn2{
+    
     width: 250px;
     height: 40px;
     background-color: white;
@@ -192,3 +198,79 @@ body{
     color: whitesmoke;
     background-color: inherit;
 }
+#menu_btn{
+    
+    position: absolute;
+    right: 1%;
+    top: 8px;
+    display: none;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+#menu_list{
+    display: none;
+}
+.central_button2{
+    display: none;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 78%;
+    left: 30%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.butn11{
+    display: none;
+    width: 125px;
+    height: 40px;
+    background-color: rgb(55, 55, 245);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+.butn21{
+    display: none;
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width: 1250px){
+    #navigation_bar{
+        display: none;
+    }
+    #menu_btn{
+        display: block;
+    }
+ }
+ @media only screen and (max-width:850px) {
+    .central_button{
+        display: none;
+    }
+    .central_button2{
+        display: flex;
+    }
+    .butn11{
+        display: inline-block;
+    }
+    .butn21{
+        display: inline-block;
+    }
+ }
+ 
+
+
+    
+
+    
